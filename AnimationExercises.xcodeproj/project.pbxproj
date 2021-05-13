@@ -18,6 +18,7 @@
 		A18AFD56264C1544000924E8 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18AFD55264C1544000924E8 /* RecordView.swift */; };
 		A18AFD58264C1E5B000924E8 /* ArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18AFD57264C1E5B000924E8 /* ArmView.swift */; };
 		A18AFD5A264C2385000924E8 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18AFD59264C2385000924E8 /* PlaySound.swift */; };
+		A18AFD5C264C29EB000924E8 /* HueRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18AFD5B264C29EB000924E8 /* HueRotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A18AFD55264C1544000924E8 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		A18AFD57264C1E5B000924E8 /* ArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmView.swift; sourceTree = "<group>"; };
 		A18AFD59264C2385000924E8 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		A18AFD5B264C29EB000924E8 /* HueRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				A11E757F264C1142001E4B72 /* RecordPlayerBox.swift */,
 				A18AFD55264C1544000924E8 /* RecordView.swift */,
 				A18AFD57264C1E5B000924E8 /* ArmView.swift */,
+				A18AFD5B264C29EB000924E8 /* HueRotation.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				A18AFD56264C1544000924E8 /* RecordView.swift in Sources */,
 				A11E757B264C0EC0001E4B72 /* RecordPlayer.swift in Sources */,
 				A18AFD58264C1E5B000924E8 /* ArmView.swift in Sources */,
+				A18AFD5C264C29EB000924E8 /* HueRotation.swift in Sources */,
 				A11E7578264C0905001E4B72 /* BreathingCircle.swift in Sources */,
 				A11E7580264C1142001E4B72 /* RecordPlayerBox.swift in Sources */,
 				A11E7569264C08C6001E4B72 /* AnimationExercisesApp.swift in Sources */,

@@ -19,11 +19,10 @@ struct RecordPlayer: View {
         ZStack{
             RadialGradient(gradient: Gradient(colors: [Color.white, Color.black]), center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadius: 20, endRadius: 600)
                 .scaleEffect(1.2)
-            
+
             // MARK: - RECORD PLAYER BOX
             RecordPlayerBox()
                 .offset(y: -100)
-            
             
             VStack {
                 // MARK: - RECORD
@@ -59,12 +58,10 @@ struct RecordPlayer: View {
                     .padding(.horizontal, 16)
                     .padding(.vertical, 10)
                     .background(Capsule().strokeBorder(Color.black, lineWidth: 1.25))
-                })
-            }
-            
-            
-        }
-    }
+                }) //: BUTTON
+            } //: VSTACK
+        } //: ZSTACK
+    } //: VIEW
 }
 // MARK: - PREVIEW
 struct RecordPlayer_Previews: PreviewProvider {
